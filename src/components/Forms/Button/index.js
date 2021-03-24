@@ -4,7 +4,7 @@ import "./styles.scss";
 const Button = ({ children, ...otherProps }) => {
   return (
     <button {...otherProps} className="btn">
-      <div>Sign In with Google</div>
+      <div>{children}</div>
     </button>
   );
 };

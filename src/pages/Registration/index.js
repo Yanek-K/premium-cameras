@@ -1,10 +1,11 @@
 import React from "react";
+import Signup from "./../../components/SignUp";
 
 const Registration = (props) => {
   return (
     <div>
       <div>
-        <h1>Registration Page</h1>
+        <Signup />
       </div>
     </div>
   );
