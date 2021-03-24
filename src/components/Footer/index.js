@@ -8,7 +8,7 @@ const Footer = (props) => {
       <div className="wrap">
         <div className="left">
           <div className="contact">
-            <h5>Contact Us</h5>
+            <h5>Contact</h5>
             <ul>
               <li>82 Warren Road</li>
               <li>Toronto, ON</li>
@@ -17,7 +17,7 @@ const Footer = (props) => {
             </ul>
           </div>
           <div className="about">
-            <h5>About Us</h5>
+            <h5>About</h5>
             <ul>
               <li>Store Location</li>
               <li>Professional Services</li>
@@ -27,7 +27,7 @@ const Footer = (props) => {
           </div>
         </div>
         <div className="hours">
-          <h5>Store Hours</h5>
+          <h5>Hours</h5>
           <ul>
             <li>Mon-Fri : 10-6</li>
             <li>Sat: 10-4</li>
