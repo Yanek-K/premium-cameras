@@ -82,6 +82,12 @@ export function* signUpUser({
     return;
   }
 
+  if (password.length < 6) {
+    const err = ["Password Must Be At Least 6 Characters"];
+    yield put(userError(err));
+    return;
+  }
+
   try {
     const { user } = yield auth.createUserWithEmailAndPassword(email, password);
     const additionalData = { displayName };
