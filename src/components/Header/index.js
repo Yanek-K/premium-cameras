@@ -22,11 +22,23 @@ const Header = (props) => {
   return (
     <header className="header">
       <div className="wrap">
-        <Link to="/">
-          <div className="logo">
+        <div className="logo">
+          <Link to="/">
             <img src={logo} alt="Premium Cameras Logo" />
-          </div>
-        </Link>
+          </Link>
+        </div>
+
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/search">Search</Link>
+            </li>
+          </ul>
+        </nav>
+
         <div className="callToActions">
           {currentUser && (
             <ul>
