@@ -1,5 +1,7 @@
 .userProfile {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   margin: 3rem auto 1rem;
 
@@ -16,9 +18,9 @@
       width: 100%;
 
       .img {
-        display: block;
-        width: 5rem;
-        margin: 0 auto;
+        // display: block;
+        // width: 5rem;
+        // margin: 0 auto;
       }
 
       .displayName {

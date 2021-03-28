@@ -1,6 +1,12 @@
 .admin {
   padding: 0 10px;
 
+  h6 {
+    cursor: pointer;
+    width: 4.5%;
+    border-bottom: 0.2px solid #d3d3d3;
+  }
+
   .callToActions {
     display: inline-block;
     width: 100%;
@@ -17,6 +23,27 @@
     ul {
       li {
         display: inline-block;
+
+        button {
+          padding: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+.manageProducts {
+  h1 {
+    margin-top: 1.5rem;
+  }
+  table.results {
+    tr {
+      &:nth-child(even) {
+        background-color: #d3d3d3;
+      }
+      .thumb {
+        width: 15rem;
+        margin: 0 auto;
       }
     }
   }

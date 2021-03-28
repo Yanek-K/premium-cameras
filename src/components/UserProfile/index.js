@@ -10,7 +10,7 @@ const UserProfile = (props) => {
       <ul>
         <li>
           <div className="img">
-            <SupervisedUserCircleTwoToneIcon />
+            <SupervisedUserCircleTwoToneIcon style={{ fontSize: 40 }} />
           </div>
         </li>
         <li>
