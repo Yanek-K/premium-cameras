@@ -5,6 +5,7 @@ import {
   fetchProductStart,
   setProduct,
 } from "./../../redux/Products/products.actions";
+import { addProduct } from "./../../redux/Cart/cart.actions";
 
 import Button from "./../Forms/Button";
 import "./styles.scss";
@@ -19,6 +20,7 @@ const ProductCard = ({}) => {
   const { productID } = useParams();
 
   const {
+    documentID,
     productName,
     productThumbnail,
     productPrice,
@@ -34,6 +36,11 @@ const ProductCard = ({}) => {
       dispatch(setProduct({}));
     };
   }, []);
+
+  const handleAddToCart = (product) => {
+    if (!product) return;
+    dispatch(addProduct(product));
+  };
 
   const configAddToCartBtn = {
     type: "button",
@@ -54,7 +61,12 @@ const ProductCard = ({}) => {
           </li>
           <li>
             <div className="addToCart">
-              <Button {...configAddToCartBtn}>Add To Cart</Button>
+              <Button
+                {...configAddToCartBtn}
+                onClick={() => handleAddToCart(product)}
+              >
+                Add To Cart
+              </Button>
             </div>
           </li>
           <li>
