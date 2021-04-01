@@ -123,7 +123,7 @@ const PaymentDetails = () => {
                   orderTotal: total,
                   orderItems: cartItems.map((item) => {
                     const {
-                      // documentID,
+                      documentID,
                       productThumbnail,
                       productName,
                       productPrice,
@@ -131,7 +131,7 @@ const PaymentDetails = () => {
                     } = item;
 
                     return {
-                      // documentID,
+                      documentID,
                       productThumbnail,
                       productName,
                       productPrice,

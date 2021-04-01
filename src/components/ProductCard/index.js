@@ -20,8 +20,6 @@ const ProductCard = ({}) => {
   const { product } = useSelector(mapState);
   const { productID } = useParams();
 
-  console.log(product);
-
   const {
     productName,
     productThumbnail,

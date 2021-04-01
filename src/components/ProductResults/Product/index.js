@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import Button from "./../../Forms/Button";
 
 import { addProduct } from "./../../../redux/Cart/cart.actions";
+import { setProduct } from "../../../redux/Products/products.actions";
 
 const Product = (product) => {
   const dispatch = useDispatch();

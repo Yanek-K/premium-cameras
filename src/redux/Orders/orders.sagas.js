@@ -31,13 +31,13 @@ export function* saveOrder({ payload }) {
   try {
     const timestamps = new Date();
     yield handleSaveOrder({
-      payload,
-      orderUserId: auth.currentUser.uid,
+      ...payload,
+      orderUserID: auth.currentUser.uid,
       orderCreatedDate: timestamps,
     });
     yield put(clearCart());
   } catch (err) {
-    console.log(err);
+    // console.log(err);
   }
 }
 

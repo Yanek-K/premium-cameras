@@ -15,6 +15,8 @@ const Dashboard = (props) => {
   const dispatch = useDispatch();
   const { currentUser, orderHistory } = useSelector(mapState);
 
+  console.log(orderHistory);
+
   useEffect(() => {
     dispatch(getUserOrderHistory(currentUser.id));
   }, []);
