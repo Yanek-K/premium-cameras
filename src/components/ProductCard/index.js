@@ -20,15 +20,14 @@ const ProductCard = ({}) => {
   const { product } = useSelector(mapState);
   const { productID } = useParams();
 
+  console.log(product);
+
   const {
-    documentID,
     productName,
     productThumbnail,
     productPrice,
     productDescription,
   } = product;
-
-  console.log(documentID);
 
   useEffect(() => {
     dispatch(fetchProductStart(productID));
