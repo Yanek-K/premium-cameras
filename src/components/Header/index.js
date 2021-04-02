@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { selectCartItemsCount } from "./../../redux/Cart/cart.selectors";
 import { signOutUserStart } from "./../../redux/User/user.actions";
 
+import MobileMenu from "./MobileMenu";
 import "./styles.scss";
 import logo from "./../../assets/logo.png";
 
@@ -38,31 +39,41 @@ const Header = (props) => {
             <li>
               <Link to="/search">Search</Link>
             </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
           </ul>
         </nav>
 
         <div className="callToActions">
-          <ul>
-            <li>
-              <Link to="/cart">Your Cart ({totalNumCartItems})</Link>
-            </li>
-            {currentUser && [
+          <div className="regular">
+            <ul>
               <li>
-                <Link to="/dashboard">My Account</Link>
-              </li>,
-              <li>
-                <span onClick={() => signOut()}>Logout</span>
-              </li>,
-            ]}
+                <Link to="/cart">My Cart ({totalNumCartItems})</Link>
+              </li>
+              {currentUser && [
+                <li>
+                  <Link to="/dashboard">My Account</Link>
+                </li>,
+                <li>
+                  <span onClick={() => signOut()}>Logout</span>
+                </li>,
+              ]}
 
-            {!currentUser && [
-              <li>
-                <Link to="/registration">Register</Link>
-              </li>,
-              <li>
-                <Link to="/login">Login</Link>
-              </li>,
-            ]}
+              {!currentUser && [
+                <li>
+                  <Link to="/registration">Register</Link>
+                </li>,
+                <li>
+                  <Link to="/login">Login</Link>
+                </li>,
+              ]}
+            </ul>
+          </div>
+          <ul>
+            <div className="ipadMenu">
+              <MobileMenu />
+            </div>
           </ul>
         </div>
       </div>

@@ -28,6 +28,7 @@
   .cart {
     width: 100%;
     text-align: left;
+    margin-top: 2rem;
 
     th,
     td {
@@ -38,7 +39,9 @@
   .cartItem {
     td img {
       display: block;
-      width: 100%;
+      width: 80%;
+      margin-top: 1rem;
+      margin-left: -1rem;
     }
   }
 

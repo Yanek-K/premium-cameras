@@ -35,7 +35,7 @@ const Checkout = () => {
                 <table
                   className="checkoutHeader"
                   border="0"
-                  cellPadding="10"
+                  cellPadding="7"
                   cellSpacing="0"
                 >
                   <tbody>
