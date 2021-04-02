@@ -14,6 +14,13 @@
       img {
         width: 80%;
         margin-bottom: 8rem;
+        border: 30px solid rgb(88, 55, 29);
+        border-radius: 10px;
+      }
+
+      .mediumFormatBtn {
+        margin-bottom: 9rem;
+        width: 40rem;
       }
 
       ul,
@@ -33,7 +40,7 @@
           width: 80%;
           line-height: 3rem;
           padding-bottom: 7rem;
-          margin: 0 auto;
+          margin: 2rem auto 4rem;
         }
       }
     }

@@ -2,6 +2,13 @@ import React from "react";
 import "./styles.scss";
 import Vivitar from "./../../assets/Vivitar.jpeg";
 
+import Button from "./../../components/Forms/Button";
+import { Link } from "react-router-dom";
+
+const configThirtyFiveBtn = {
+  type: "button",
+};
+
 const Thirtyfivemm = () => {
   return (
     <div className="thirtyFive">
@@ -11,6 +18,11 @@ const Thirtyfivemm = () => {
         </div>
         <div className="mainContent">
           <img src={Vivitar} />
+          <div className="thirtyFiveBtn">
+            <Link to="/search/35mm">
+              <Button {...configThirtyFiveBtn}>Shop Our 35mm Cameras</Button>
+            </Link>
+          </div>
           <ul>
             <li>
               <h2>Shopping for Used 35mm Film Cameras</h2>

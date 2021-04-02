@@ -2,6 +2,12 @@ import React from "react";
 import "./styles.scss";
 
 import Yashica from "./../../assets/Yashica.jpeg";
+import Button from "./../../components/Forms/Button";
+import { Link } from "react-router-dom";
+
+const configMediumFormatBtn = {
+  type: "button",
+};
 
 const MediumFormat = () => {
   return (
@@ -12,6 +18,13 @@ const MediumFormat = () => {
         </div>
         <div className="mainContent">
           <img src={Yashica} />
+          <div className="mediumFormatBtn">
+            <Link to="/search/Medium%20Format">
+              <Button {...configMediumFormatBtn}>
+                Shop Our Medium Format Cameras
+              </Button>
+            </Link>
+          </div>
           <ul>
             <li>
               <h2>The Difference Between 35mm and 120 Films</h2>
