@@ -1,0 +1,41 @@
+.mediumFormat {
+  .wrap {
+    display: inline-block;
+    h1 {
+      text-align: center;
+      margin: 6rem auto 6rem;
+    }
+    .mainContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 80%;
+        margin-bottom: 8rem;
+      }
+
+      ul,
+      li {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+      }
+
+      li {
+        list-style-type: none;
+
+        h2 {
+          text-align: center;
+        }
+        p {
+          width: 80%;
+          line-height: 3rem;
+          padding-bottom: 7rem;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

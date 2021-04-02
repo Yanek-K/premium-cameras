@@ -14,13 +14,13 @@ const Directory = (props) => {
             marginRight: "15px",
           }}
         >
-          <a href="">Shop 35mm Cameras</a>
+          <a href="/35mm">35mm Cameras</a>
         </div>
         <div
           className="item"
           style={{ backgroundImage: `url(${ShopMediumFormat})` }}
         >
-          <a href="">Shop Medium Format</a>
+          <a href="/MediumFormat">Medium Format</a>
         </div>
       </div>
     </div>

@@ -1,0 +1,50 @@
+.about {
+  //   height: 100%;
+  max-width: 1450px;
+
+  .wrap {
+    display: inline-block;
+    width: 100%;
+    // height: 100%;
+
+    .aboutHeader {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 6rem auto 9rem;
+      align-items: center;
+
+      h1 {
+        text-align: center;
+        font-size: 3.9rem;
+        padding-bottom: 2rem;
+      }
+
+      .aboutLogo {
+        width: 6%;
+      }
+    }
+
+    .content {
+      img {
+        float: left;
+        width: 35%;
+        margin-right: 15rem;
+      }
+      ul,
+      li {
+        margin: 5rem 2rem;
+        padding: 0.2rem 2rem;
+        text-align: center;
+        line-height: 4rem;
+        font-size: 2rem;
+      }
+
+      li {
+        // width: 90%;
+        list-style-type: none;
+        margin-left: 1.5rem;
+      }
+    }
+  }
+}

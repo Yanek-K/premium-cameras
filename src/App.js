@@ -28,6 +28,9 @@ import ProductDetails from "./pages/ProductDetails";
 import Cart from "./pages/Cart";
 import Payment from "./pages/Payment";
 import Order from "./pages/Order";
+import About from "./pages/About";
+import Thirtyfivemm from "./pages/Thirtyfivemm";
+import MediumFormat from "./pages/MediumFormat";
 
 const App = (props) => {
   const dispatch = useDispatch();
@@ -55,6 +58,33 @@ const App = (props) => {
           render={() => (
             <MainLayout>
               <Search />
+            </MainLayout>
+          )}
+        />
+        <Route
+          exact
+          path="/about"
+          render={() => (
+            <MainLayout>
+              <About />
+            </MainLayout>
+          )}
+        />
+        <Route
+          exact
+          path="/35mm"
+          render={() => (
+            <MainLayout>
+              <Thirtyfivemm />
+            </MainLayout>
+          )}
+        />
+        <Route
+          exact
+          path="/MediumFormat"
+          render={() => (
+            <MainLayout>
+              <MediumFormat />
             </MainLayout>
           )}
         />
