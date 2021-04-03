@@ -31,6 +31,10 @@ const About = () => {
               store getting to know our products and team. Sometimes, A second
               opinion can make all the difference.
             </li>
+            <li>
+              To get in contact with us, or book an appointment with one of our
+              consultants, send us an email at info@premiumcameras.com.
+            </li>
           </ul>
         </div>
       </div>

@@ -71,6 +71,12 @@ const SignIn = (props) => {
             handleChange={(e) => setPassword(e.target.value)}
           />
 
+          <p>
+            To test the app use: <br />
+            yanek@mail.com <br />
+            Password: yanek123
+          </p>
+
           <div className="login ">
             <Button type="submit">Login</Button>
           </div>

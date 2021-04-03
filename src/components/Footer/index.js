@@ -11,6 +11,7 @@ const Footer = (props) => {
           <div className="contact">
             <h5>Contact</h5>
             <ul>
+              <li>info@premiumcameras.com</li>
               <li>237 Peter Street</li>
               <li>Toronto, ON</li>
               <li>M4R 2S8</li>
@@ -22,10 +23,11 @@ const Footer = (props) => {
               <h5>About</h5>
             </Link>
             <ul>
-              <li>Store Location</li>
-              <li>Professional Services</li>
-              <li>Company Information</li>
-              <li>Careers</li>
+              <Link to="/about">
+                <li>Professional Services</li>
+                <li>Company Information</li>
+                <li>Careers</li>
+              </Link>
             </ul>
           </div>
         </div>
