@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./styles.scss";
 
@@ -10,14 +11,16 @@ const Footer = (props) => {
           <div className="contact">
             <h5>Contact</h5>
             <ul>
-              <li>82 Warren Road</li>
+              <li>237 Peter Street</li>
               <li>Toronto, ON</li>
-              <li>M4V 2R7</li>
-              <li>647 473 1535</li>
+              <li>M4R 2S8</li>
+              <li>+ 1 647 442 1512</li>
             </ul>
           </div>
           <div className="about">
-            <h5>About</h5>
+            <Link to="/about">
+              <h5>About</h5>
+            </Link>
             <ul>
               <li>Store Location</li>
               <li>Professional Services</li>

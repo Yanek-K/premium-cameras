@@ -2,16 +2,19 @@
   margin-top: 0.7rem;
   margin-right: -1rem;
 
-  .searchMenu {
+  .searchIcon {
     display: none;
   }
 }
 
 @media only screen and (max-width: 690px) {
   .mobileMenu {
-    margin-right: 3rem;
-    .searchMenu {
-      display: block;
+    margin-right: -2rem;
+
+    .searchIcon {
+      display: inline-block;
+      margin-right: 2rem;
+      // margin-top: 5rem;
     }
   }
 }

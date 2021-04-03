@@ -11,8 +11,7 @@ import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import AddCircleOutlinedIcon from "@material-ui/icons/AddCircleOutlined";
-import SearchOutlinedIcon from "@material-ui/icons/SearchOutlined";
-import BurgerMenu from "../BurgerMenu";
+import PhotoCameraIcon from "@material-ui/icons/PhotoCamera";
 
 const mapState = (state) => ({
   currentUser: state.user.currentUser,
@@ -29,6 +28,13 @@ const MobileMenu = ({}) => {
   return (
     <div className="mobileMenu">
       <ul>
+        <div className="searchIcon">
+          <li>
+            <Link to="/search">
+              <PhotoCameraIcon style={{ fontSize: 32, paddingRight: "12" }} />
+            </Link>
+          </li>
+        </div>
         <li>
           <Link to="/cart">
             <ShoppingBasketIcon style={{ fontSize: 32, paddingRight: "12" }} />
@@ -63,9 +69,6 @@ const MobileMenu = ({}) => {
           </li>,
         ]}
       </ul>
-      <div className="searchMenu">
-        <BurgerMenu />
-      </div>
     </div>
   );
 };
