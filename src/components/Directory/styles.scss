@@ -31,10 +31,13 @@
       line-height: 1;
       font-weight: 400;
       text-transform: uppercase;
-      background: #ebebeb;
-      padding: 8px 10px;
+      background: black;
+      padding: 0.8rem 2rem;
       border: 1px solid black;
-      border-radius: 7px;
+      color: white;
+    }
+    a:hover {
+      background: white;
       color: black;
     }
   }

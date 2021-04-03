@@ -11,17 +11,17 @@
       display: flex;
       flex-direction: column;
       width: 100%;
-      margin: 6rem auto 9rem;
+      margin: 5rem auto 3rem;
       align-items: center;
 
       h1 {
         text-align: center;
-        font-size: 3.9rem;
-        padding-bottom: 2rem;
+        font-size: 3.7rem;
+        padding-bottom: 0.6rem;
       }
 
       .aboutLogo {
-        width: 6%;
+        width: 3.3%;
       }
     }
 
@@ -29,12 +29,13 @@
       img {
         float: left;
         width: 35%;
-        margin-right: 15rem;
+        margin-right: 18rem;
+        margin-left: 9rem;
       }
       ul,
       li {
-        margin: 5rem 2rem;
-        padding: 0.2rem 2rem;
+        margin: 4rem 2rem;
+        padding: 0.05rem 2rem;
         text-align: center;
         line-height: 4rem;
         font-size: 2rem;
@@ -53,7 +54,7 @@
   .about {
     .wrap {
       .aboutHeader {
-        margin: 6rem auto 6rem;
+        margin: 4rem auto 5rem;
       }
       .content {
         img {
@@ -74,7 +75,7 @@
   .about {
     .wrap {
       .aboutHeader {
-        margin: 6rem auto 8rem;
+        margin: 4rem auto 6rem;
       }
       .content {
         img {
@@ -98,7 +99,7 @@
       .aboutHeader {
         margin: 6rem auto 4rem;
         .aboutLogo {
-          width: 9%;
+          width: 7%;
         }
       }
       .content {

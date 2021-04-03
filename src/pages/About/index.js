@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.scss";
 
 import office from "./../../assets/office.jpeg";
-import logo from "./../../assets/logo.png";
+import LogoAbout from "./../../assets/LogoAbout.png";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
       <div className="wrap">
         <div className="aboutHeader">
           <h1>About Premium Cameras</h1>
-          <img src={logo} className="aboutLogo" />
+          <img src={LogoAbout} className="aboutLogo" />
         </div>
         <div className="content">
           <img src={office} className="image" />
