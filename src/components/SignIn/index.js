@@ -73,7 +73,7 @@ const SignIn = (props) => {
 
           <p>
             To test the app use: <br />
-            yanek@mail.com <br />
+            Email: yanek@mail.com <br />
             Password: yanek123
           </p>
 

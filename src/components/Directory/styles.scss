@@ -47,7 +47,21 @@
   .directory {
     .wrap {
       .item {
-        margin-top: 40px;
+        margin-top: 4rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .directory {
+    .wrap {
+      .item {
+        margin-top: 2rem;
+      }
+
+      a {
+        top: 45%;
       }
     }
   }
@@ -57,6 +71,7 @@
   .directory {
     .wrap {
       a {
+        top: 48%;
         font-size: 1.5rem;
         transform: translate(-50%, 850%);
       }
