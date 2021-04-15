@@ -2,7 +2,7 @@ import React from "react";
 
 import ProductCard from "./../../components/ProductCard";
 
-const ProductDetails = ({}) => {
+const ProductDetails = () => {
   return (
     <div>
       <ProductCard />

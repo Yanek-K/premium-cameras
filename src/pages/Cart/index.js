@@ -1,7 +1,7 @@
 import React from "react";
 import Checkout from "./../../components/Checkout";
 
-const Cart = ({}) => {
+const Cart = () => {
   return (
     <div>
       <Checkout />

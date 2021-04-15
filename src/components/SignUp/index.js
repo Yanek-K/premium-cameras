@@ -30,7 +30,7 @@ const Signup = (props) => {
       reset();
       history.push("/");
     }
-  }, [currentUser]);
+  }, [currentUser, history]);
 
   useEffect(() => {
     if (Array.isArray(userErr) && userErr.length > 0) {

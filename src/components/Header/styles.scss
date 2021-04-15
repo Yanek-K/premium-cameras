@@ -6,11 +6,11 @@
     display: block;
     position: relative;
     height: 100%;
-    max-width: 1650px;
+    max-width: 1700px;
     margin: 0 auto;
 
     .logo {
-      width: 7.8rem;
+      width: 25rem;
       position: relative;
       top: 50%;
       left: 1;
@@ -114,6 +114,19 @@
 
   .header {
     .wrap {
+      .logo {
+        width: 20.8rem;
+      }
+      nav {
+        margin-top: -4.9rem;
+        ul {
+          li {
+            a {
+              font-size: 1.8rem;
+            }
+          }
+        }
+      }
       .ipadMenu {
         display: inline-block;
         padding: 0 1rem;
@@ -122,9 +135,12 @@
   }
 }
 
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 783px) {
   .header {
     .wrap {
+      .logo {
+        width: 23.8rem;
+      }
       nav {
         display: none;
       }

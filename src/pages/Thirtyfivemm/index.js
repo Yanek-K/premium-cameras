@@ -17,7 +17,7 @@ const Thirtyfivemm = () => {
           <h1>35mm Cameras</h1>
         </div>
         <div className="mainContent">
-          <img src={Vivitar} />
+          <img src={Vivitar} alt="Vivitar" />
           <div className="thirtyFiveBtn">
             <Link to="/search/35mm">
               <Button {...configThirtyFiveBtn}>Shop Our 35mm Cameras</Button>

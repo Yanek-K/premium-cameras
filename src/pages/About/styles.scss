@@ -16,12 +16,12 @@
 
       h1 {
         text-align: center;
-        font-size: 3.7rem;
+        font-size: 3rem;
         padding-bottom: 0.6rem;
       }
 
       .aboutLogo {
-        width: 2.4%;
+        width: 2.8%;
       }
     }
 
@@ -45,6 +45,7 @@
 
       li {
         // width: 90%;
+        margin-top: 0rem;
         list-style-type: none;
         margin-left: 1.5rem;
       }
@@ -55,9 +56,6 @@
 @media only screen and (max-width: 1600px) {
   .about {
     .wrap {
-      .aboutHeader {
-        margin: 4rem auto 5rem;
-      }
       .content {
         img {
           margin-left: 10rem;
@@ -77,9 +75,6 @@
 @media only screen and (max-width: 1310px) {
   .about {
     .wrap {
-      .aboutHeader {
-        margin: 4rem auto 6rem;
-      }
       .content {
         img {
           margin-left: 10rem;
@@ -100,9 +95,50 @@
   .about {
     .wrap {
       .aboutHeader {
-        margin: 6rem auto 4rem;
+        margin: 5rem auto 4rem;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          align-self: center;
+          width: 40%;
+          margin-bottom: 2rem;
+          margin-top: 1rem;
+        }
+        ul,
+        li {
+          margin: 2rem 2rem -2rem;
+          padding-bottom: 4rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .about {
+    .wrap {
+      .aboutHeader {
         .aboutLogo {
-          width: 7%;
+          width: 6%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .about {
+    .wrap {
+      .aboutHeader {
+        h1 {
+          font-size: 2.8rem;
+        }
+
+        .aboutLogo {
+          width: 6%;
         }
       }
       .content {
@@ -111,8 +147,9 @@
 
         img {
           align-self: center;
-          width: 60%;
+          width: 50%;
           margin-bottom: 2rem;
+          margin-top: 0rem;
         }
         ul,
         li {

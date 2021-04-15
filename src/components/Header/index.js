@@ -7,7 +7,7 @@ import { signOutUserStart } from "./../../redux/User/user.actions";
 
 import MobileMenu from "./MobileMenu";
 import "./styles.scss";
-import logo from "./../../assets/logo.png";
+import logo from "./../../assets/logo2.png";
 
 const mapState = (state) => ({
   currentUser: state.user.currentUser,

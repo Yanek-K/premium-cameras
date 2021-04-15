@@ -31,24 +31,22 @@ const Checkout = () => {
         {cartItems.length > 0 ? (
           <table border="0" cellPadding="0" cellSpacing="0">
             <tbody>
-              <tr>
-                <table
-                  className="checkoutHeader"
-                  border="0"
-                  cellPadding="7"
-                  cellSpacing="0"
-                >
-                  <tbody>
-                    <tr>
-                      <th>Product</th>
-                      <th>Description</th>
-                      <th>quantity</th>
-                      <th>price</th>
-                      <th>remove</th>
-                    </tr>
-                  </tbody>
-                </table>
-              </tr>
+              <table
+                className="checkoutHeader"
+                border="0"
+                cellPadding="7"
+                cellSpacing="10"
+              >
+                <tbody>
+                  <tr>
+                    <th>Product</th>
+                    <th>Description</th>
+                    <th>quantity</th>
+                    <th>price</th>
+                    <th>remove</th>
+                  </tr>
+                </tbody>
+              </table>
 
               <tr>
                 <table border="0" cellPadding="0" cellSpacing="0">

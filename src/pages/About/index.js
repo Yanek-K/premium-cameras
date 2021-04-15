@@ -10,10 +10,10 @@ const About = () => {
       <div className="wrap">
         <div className="aboutHeader">
           <h1>About Premium Cameras</h1>
-          <img src={LogoAbout} className="aboutLogo" />
+          <img src={LogoAbout} className="aboutLogo" alt="Logo" />
         </div>
         <div className="content">
-          <img src={office} className="image" />
+          <img src={office} className="image" alt="office" />
           <ul>
             <li>
               For over 30 years, Premium Cameras has been the go-to destination

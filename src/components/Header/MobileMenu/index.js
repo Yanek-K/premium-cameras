@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 
 import { signOutUserStart } from "./../../../redux/User/user.actions";
 
-import { slide as Menu } from "react-burger-menu";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
@@ -17,7 +16,7 @@ const mapState = (state) => ({
   currentUser: state.user.currentUser,
 });
 
-const MobileMenu = ({}) => {
+const MobileMenu = () => {
   const dispatch = useDispatch();
   const { currentUser } = useSelector(mapState);
 

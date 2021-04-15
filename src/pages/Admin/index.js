@@ -34,7 +34,7 @@ const Admin = (props) => {
 
   useEffect(() => {
     dispatch(fetchProductsStart());
-  }, []);
+  }, [dispatch]);
 
   const toggleModal = () => setHideModal(!hideModal);
   const configModal = {
@@ -174,7 +174,11 @@ const Admin = (props) => {
                         return (
                           <tr>
                             <td>
-                              <img className="thumb" src={productThumbnail} />
+                              <img
+                                className="thumb"
+                                src={productThumbnail}
+                                alt="Thumbnail"
+                              />
                             </td>
                             <td>{productName}</td>
                             <td>${productPrice}</td>

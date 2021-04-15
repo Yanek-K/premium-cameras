@@ -12,7 +12,7 @@ const mapState = ({ productsData }) => ({
   products: productsData.products,
 });
 
-const ProductResults = ({}) => {
+const ProductResults = () => {
   const dispatch = useDispatch();
   const history = useHistory();
   const { filterType } = useParams();
@@ -22,7 +22,7 @@ const ProductResults = ({}) => {
 
   useEffect(() => {
     dispatch(fetchProductsStart({ filterType }));
-  }, [filterType]);
+  }, [filterType, dispatch]);
 
   const handleFilter = (e) => {
     const nextFilter = e.target.value;

@@ -11,7 +11,6 @@ import { createStructuredSelector } from "reselect";
 import { useSelector, useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 
-import { clearCart } from "./../../redux/Cart/cart.actions";
 import { saveOrderHistory } from "./../../redux/Orders/orders.actions";
 import { apiInstance } from "./../../utils";
 
@@ -52,7 +51,7 @@ const PaymentDetails = () => {
     if (itemCount < 1) {
       history.push("/dashboard");
     }
-  }, [itemCount]);
+  }, [itemCount, history]);
 
   const handleShipping = (evt) => {
     const { name, value } = evt.target;

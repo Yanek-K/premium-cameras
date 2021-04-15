@@ -17,7 +17,7 @@ const MediumFormat = () => {
           <h1>Medium Format Cameras</h1>
         </div>
         <div className="mainContent">
-          <img src={Yashica} />
+          <img src={Yashica} alt="Yashica" />
           <div className="mediumFormatBtn">
             <Link to="/search/Medium%20Format">
               <Button {...configMediumFormatBtn}>

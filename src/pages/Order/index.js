@@ -16,7 +16,7 @@ const Order = () => {
 
   useEffect(() => {
     dispatch(getOrderDetailsStart(orderID));
-  }, []);
+  }, [dispatch, orderID]);
 
   return (
     <div>

@@ -31,7 +31,7 @@ const EmailPassword = (props) => {
       dispatch(resetUserState());
       history.push("/login");
     }
-  }, [resetPasswordSuccess]);
+  }, [resetPasswordSuccess, dispatch, history]);
 
   useEffect(() => {
     if (Array.isArray(userErr) && userErr.length > 0) {
