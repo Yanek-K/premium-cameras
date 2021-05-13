@@ -24,7 +24,6 @@ purchase history or view new products.
 
 
 ## Features
-List of features ready and TODOs for future development
 * Login in to your account to track purchase history
 * View products uploaded by management
 * Make a purchase and configure shipping with Stripe
@@ -34,7 +33,7 @@ List of features ready and TODOs for future development
 Project is: _finished_
 
 ## Inspiration
-Project Inspired by Ashley Bibizadeh 
+Project Inspired by Marton Istvan 
 
 ## Contact
 Created by Yanek-K - feel free to contact me!
