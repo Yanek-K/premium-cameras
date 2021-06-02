@@ -1,8 +1,13 @@
 import React from "react";
 import "./styles.scss";
+
+//Assets
 import Vivitar from "./../../assets/Vivitar.jpeg";
 
+//Components
 import Button from "./../../components/Forms/Button";
+
+//Redux
 import { Link } from "react-router-dom";
 
 const configThirtyFiveBtn = {

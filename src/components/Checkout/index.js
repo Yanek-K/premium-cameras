@@ -1,12 +1,15 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import { useSelector } from "react-redux";
+import { createStructuredSelector } from "reselect";
+
+//Redux
 import {
   selectCartItems,
   selectCartTotal,
 } from "./../../redux/Cart/cart.selectors";
-import { createStructuredSelector } from "reselect";
 
+//Components
 import Button from "./../Forms/Button";
 import Item from "./Item";
 

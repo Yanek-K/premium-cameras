@@ -1,4 +1,7 @@
 import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
+
+//MUI
 import {
   TableContainer,
   Table,
@@ -7,7 +10,8 @@ import {
   TableRow,
   TableCell,
 } from "@material-ui/core";
-import { useDispatch } from "react-redux";
+
+//Redux
 import { setOrderDetails } from "./../../redux/Orders/orders.actions";
 
 const columns = [

@@ -1,19 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import CKEditor from "ckeditor4-react";
+import "./styles.scss";
 
+//Redux
 import {
   addProductStart,
   fetchProductsStart,
   deleteProductStart,
 } from "./../../redux/Products/products.actions";
 
+//Components
 import Modal from "./../../components/Modal";
 import FormInput from "./../../components/Forms/FormInput";
 import FormSelect from "./../../components/Forms/FormSelect";
 import Button from "./../../components/Forms/Button";
 import LoadMore from "./../../components/LoadMore";
-import "./styles.scss";
 
 const mapState = ({ productsData }) => ({
   products: productsData.products,

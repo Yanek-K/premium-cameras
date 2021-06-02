@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.scss";
 
+//Assets
 import office from "./../../assets/office.jpeg";
 import LogoAbout from "./../../assets/LogoAbout.png";
 

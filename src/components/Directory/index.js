@@ -1,5 +1,7 @@
 import React from "react";
 import "./styles.scss";
+
+//Assets
 import Shop35mm from "./../../assets/shop35mm.jpg";
 import ShopMediumFormat from "./../../assets/shopMediumFormat.jpeg";
 

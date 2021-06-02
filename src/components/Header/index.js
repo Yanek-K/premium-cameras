@@ -1,12 +1,16 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import "./styles.scss";
 
+//Redux
 import { selectCartItemsCount } from "./../../redux/Cart/cart.selectors";
 import { signOutUserStart } from "./../../redux/User/user.actions";
 
+//Components
 import MobileMenu from "./MobileMenu";
-import "./styles.scss";
+
+//Assets
 import logo from "./../../assets/logo2.png";
 
 const mapState = (state) => ({

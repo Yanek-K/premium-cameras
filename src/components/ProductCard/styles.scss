@@ -2,17 +2,18 @@
   max-width: 120rem;
   display: flex;
   align-items: center;
+
   margin: 8rem auto 10rem;
 
   .hero {
     display: block;
-    margin: 0rem auto 0rem;
+    margin: 0rem 0rem 0rem 10rem;
     padding-right: 0rem;
 
     img {
       display: block;
       margin: 2rem 1rem 0 0;
-      // width: 99%;
+      width: 40rem;
     }
   }
 
@@ -28,7 +29,6 @@
 
     ul li {
       width: 70%;
-
       list-style-type: none;
       margin: 0 auto 1rem;
       line-height: 3rem;
@@ -46,8 +46,11 @@
 }
 
 @media only screen and (max-width: 1300px) {
-  .hero {
-    padding-left: 4rem;
+  .productCard {
+    .hero {
+      padding-left: 4rem;
+      margin: 0rem 0rem 0rem 4rem;
+    }
   }
 }
 

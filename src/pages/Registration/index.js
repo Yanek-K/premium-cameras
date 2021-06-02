@@ -1,4 +1,6 @@
 import React from "react";
+
+//Components
 import Signup from "./../../components/SignUp";
 
 const Registration = (props) => {

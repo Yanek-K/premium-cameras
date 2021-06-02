@@ -1,8 +1,13 @@
 import React from "react";
 import "./styles.scss";
 
+//Assets
 import Yashica from "./../../assets/Yashica.jpeg";
+
+//Components
 import Button from "./../../components/Forms/Button";
+
+//Redux
 import { Link } from "react-router-dom";
 
 const configMediumFormatBtn = {

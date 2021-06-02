@@ -1,14 +1,17 @@
 import React, { useEffect } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
+import "./styles.scss";
+
+//Redux
 import {
   fetchProductStart,
   setProduct,
 } from "./../../redux/Products/products.actions";
 import { addProduct } from "./../../redux/Cart/cart.actions";
 
+//Components
 import Button from "./../Forms/Button";
-import "./styles.scss";
 
 const mapState = (state) => ({
   product: state.productsData.product,

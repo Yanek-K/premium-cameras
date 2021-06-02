@@ -1,19 +1,23 @@
 import React, { useState, useEffect } from "react";
 import "./styles.scss";
-import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import { CountryDropdown } from "react-country-region-selector";
+import { createStructuredSelector } from "reselect";
+import { useSelector, useDispatch } from "react-redux";
+import { useHistory } from "react-router-dom";
+
+//Stripe
+import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
+
+//Redux
 import {
   selectCartTotal,
   selectCartItemsCount,
   selectCartItems,
 } from "./../../redux/Cart/cart.selectors";
-import { createStructuredSelector } from "reselect";
-import { useSelector, useDispatch } from "react-redux";
-import { useHistory } from "react-router-dom";
-
 import { saveOrderHistory } from "./../../redux/Orders/orders.actions";
-import { apiInstance } from "./../../utils";
 
+//Components
+import { apiInstance } from "./../../utils";
 import FormInput from "./../Forms/FormInput";
 import Button from "./../Forms/Button";
 

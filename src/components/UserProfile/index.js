@@ -1,5 +1,7 @@
 import React from "react";
 import "./styles.scss";
+
+//MUI
 import SupervisedUserCircleTwoToneIcon from "@material-ui/icons/SupervisedUserCircleTwoTone";
 
 const UserProfile = (props) => {

@@ -1,7 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import UserProfile from "./../UserProfile";
 import "./styles.scss";
+
+//Components
+import UserProfile from "./../UserProfile";
 
 const mapState = ({ user }) => ({
   currentUser: user.currentUser,

@@ -2,7 +2,7 @@ import { auth } from "./../../firebase/utils";
 
 export const handleResetPasswordAPI = (email) => {
   const config = {
-    url: "http://localhost:3000/login",
+    url: "http://www.premiumcameras.ca",
   };
 
   return new Promise((resolve, reject) => {

@@ -1,11 +1,12 @@
 import React from "react";
 import "./styles.scss";
 import { useSelector, useDispatch } from "react-redux";
-
 import { Link } from "react-router-dom";
 
+//Redux
 import { signOutUserStart } from "./../../../redux/User/user.actions";
 
+//MUI
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";

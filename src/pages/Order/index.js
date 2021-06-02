@@ -1,7 +1,12 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { getOrderDetailsStart } from "./../../redux/Orders/orders.actions";
+
 import { useDispatch, useSelector } from "react-redux";
+
+//Redux
+import { getOrderDetailsStart } from "./../../redux/Orders/orders.actions";
+
+//Components
 import OrderDetails from "./../../components/OrderDetails";
 
 const mapState = ({ ordersData }) => ({

@@ -1,9 +1,12 @@
 import React from "react";
 import { Link, useHistory } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import Button from "./../../Forms/Button";
 
+//Redux
 import { addProduct } from "./../../../redux/Cart/cart.actions";
+
+//Components
+import Button from "./../../Forms/Button";
 
 const Product = (product) => {
   const dispatch = useDispatch();

@@ -1,4 +1,8 @@
 import React from "react";
+import moment from "moment";
+import { useHistory } from "react-router-dom";
+
+//MUI
 import {
   TableContainer,
   Table,
@@ -7,9 +11,6 @@ import {
   TableBody,
   TableCell,
 } from "@material-ui/core";
-
-import moment from "moment";
-import { useHistory } from "react-router-dom";
 
 const columns = [
   {

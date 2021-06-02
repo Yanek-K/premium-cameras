@@ -3,9 +3,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import "./styles.scss";
 
-import AuthWrapper from "./../AuthWrapper";
+//Redux
 import { signUpUserStart } from "./../../redux/User/user.actions";
 
+//Components
+import AuthWrapper from "./../AuthWrapper";
 import FormInput from "./../Forms/FormInput";
 import Button from "./../Forms/Button";
 
